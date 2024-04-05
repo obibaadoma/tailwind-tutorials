@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-tutorials",
+  "version": "1.0.0",
+  "description": "A tutorial for studies in tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
