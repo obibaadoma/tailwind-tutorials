@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TAILWIND TUTORIAL</title>
-  <link rel="stylesheet" href="styles.css"/></link>
- </head>
+  <link rel="stylesheet" href="styles.css" />
+  </link>
+</head>
 
 <body class="bg-purple-500 text-red-400 font-mono">
 
@@ -45,12 +46,12 @@
     </div> <!-- end of nav -->
   </div>
 
-  <main class ="bg-gray-100 px-16 py-6">
+  <main class="bg-gray-100 px-16 py-6">
     <div class="flex md: justify-end lg:justify-end ml-2  gap-6">
       <a href="#">Log in</a>
       <a href="#">Sign up</a>
     </div>
-  
+
     <div class="flex items-end justify-end">
       <div class="bg-red-500 h-12 w-4"></div>
       <div class="bg-green-500 h-8 w-4"></div>
@@ -65,20 +66,23 @@
       <h4 class="font-bold mt-12 pb-2 border-b">Latest recipes</h4>
       <div class="mt-8">
         <!-- cards for go here -->
-        <div class="bg-white rounded overflow-hidden shadow-md p-4">
-          <img  class="w-48 h-36 border-8"src="../public/images/image2.jpg" alt="Description of the image">
-        <div class="m-4 ">
-          <span class="block font-bold">5 Bean Chilli Stew</span>
-          <span class="block text-gray-500 text-sm">Recipe by Mariot</span>
+        <div class="bg-white rounded overflow-hidden shadow-md p-4 relative">
+          <img class="w-48 h-36 border-8" src="../public/images/image2.jpg" alt="Description of the image">
+            <div class="m-4 ">
+              <span class="block font-bold">5 Bean Chilli Stew</span>
+              <span class="block text-gray-500 text-6xl">Recipe by Mariot</span>
+            </div>
+            <div>
+              <span class="bg-gray-700 text-xs uppercase font-bold rounded-full absolute p-2 top-1.5 ml-2 mt-2 h-0.5 w-8">25 mins</span>
+             </div>
         </div>
       </div>
-      </div>
-      <h4 class = "font-bold mt=12 pb-2">Most Popular</h4>
+      <h4 class="font-bold mt=12 pb-2">Most Popular</h4>
       <div>
         <!-- cards go here -->
       </div>
       <div class="flex justify-center">
-        <div class = "light">Load More</div>
+        <div class="light">Load More</div>
       </div>
     </div>
   </main>
